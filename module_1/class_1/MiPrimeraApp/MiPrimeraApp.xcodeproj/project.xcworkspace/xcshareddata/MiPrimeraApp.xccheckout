@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>297829A3-38E3-4855-ADDF-6EE63FA8652C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MiPrimeraApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2014C970-F21F-4080-99EF-B6E8EA24A0A5</key>
+		<string>http://github.com/Area51TrainingCenter/iOSDev_Group12</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>module_1/class_1/MiPrimeraApp/MiPrimeraApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2014C970-F21F-4080-99EF-B6E8EA24A0A5</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://github.com/Area51TrainingCenter/iOSDev_Group12</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2014C970-F21F-4080-99EF-B6E8EA24A0A5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2014C970-F21F-4080-99EF-B6E8EA24A0A5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSDev_Group12</string>
+		</dict>
+	</array>
+</dict>
+</plist>
