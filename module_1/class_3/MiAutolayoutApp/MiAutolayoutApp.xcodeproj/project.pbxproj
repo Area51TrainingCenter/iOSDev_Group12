@@ -21,6 +21,8 @@
 		8175058C191860CA0067F933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8175056E191860C90067F933 /* UIKit.framework */; };
 		81750594191860CA0067F933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81750592191860CA0067F933 /* InfoPlist.strings */; };
 		81750596191860CA0067F933 /* MiAutolayoutAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81750595191860CA0067F933 /* MiAutolayoutAppTests.m */; };
+		817505A2191B082D0067F933 /* twitterLogo iOS.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 817505A1191B082D0067F933 /* twitterLogo iOS.jpeg */; };
+		817505A4191B0DDA0067F933 /* emma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 817505A3191B0DDA0067F933 /* emma.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		81750591191860CA0067F933 /* MiAutolayoutAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiAutolayoutAppTests-Info.plist"; sourceTree = "<group>"; };
 		81750593191860CA0067F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81750595191860CA0067F933 /* MiAutolayoutAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiAutolayoutAppTests.m; sourceTree = "<group>"; };
+		817505A1191B082D0067F933 /* twitterLogo iOS.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitterLogo iOS.jpeg"; sourceTree = "<group>"; };
+		817505A3191B0DDA0067F933 /* emma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = emma.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				8175057C191860C90067F933 /* Main.storyboard */,
 				8175057F191860C90067F933 /* ViewController.h */,
 				81750580191860C90067F933 /* ViewController.m */,
+				817505A3191B0DDA0067F933 /* emma.jpg */,
+				817505A1191B082D0067F933 /* twitterLogo iOS.jpeg */,
 				81750582191860C90067F933 /* Images.xcassets */,
 				81750571191860C90067F933 /* Supporting Files */,
 			);
@@ -229,8 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81750583191860C90067F933 /* Images.xcassets in Resources */,
+				817505A4191B0DDA0067F933 /* emma.jpg in Resources */,
 				81750575191860C90067F933 /* InfoPlist.strings in Resources */,
 				8175057E191860C90067F933 /* Main.storyboard in Resources */,
+				817505A2191B082D0067F933 /* twitterLogo iOS.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +468,7 @@
 				8175059B191860CA0067F933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8175059C191860CA0067F933 /* Build configuration list for PBXNativeTarget "MiAutolayoutAppTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				8175059E191860CA0067F933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

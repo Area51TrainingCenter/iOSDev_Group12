@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817505B2191B10860067F933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B1191B10860067F933 /* Foundation.framework */; };
+		817505B4191B10860067F933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B3191B10860067F933 /* CoreGraphics.framework */; };
+		817505B6191B10860067F933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B5191B10860067F933 /* UIKit.framework */; };
+		817505BC191B10860067F933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817505BA191B10860067F933 /* InfoPlist.strings */; };
+		817505BE191B10860067F933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 817505BD191B10860067F933 /* main.m */; };
+		817505C2191B10860067F933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 817505C1191B10860067F933 /* AppDelegate.m */; };
+		817505C5191B10870067F933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817505C3191B10870067F933 /* Main.storyboard */; };
+		817505C8191B10870067F933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817505C7191B10870067F933 /* ViewController.m */; };
+		817505CA191B10870067F933 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817505C9191B10870067F933 /* Images.xcassets */; };
+		817505D1191B10870067F933 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505D0191B10870067F933 /* XCTest.framework */; };
+		817505D2191B10870067F933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B1191B10860067F933 /* Foundation.framework */; };
+		817505D3191B10870067F933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B5191B10860067F933 /* UIKit.framework */; };
+		817505DB191B10870067F933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 817505D9191B10870067F933 /* InfoPlist.strings */; };
+		817505DD191B10870067F933 /* MiMusicPlayerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 817505DC191B10870067F933 /* MiMusicPlayerAppTests.m */; };
+		817505E8191B12450067F933 /* AlbumesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817505E7191B12450067F933 /* AlbumesViewController.m */; };
+		817505EB191B12500067F933 /* DetalleAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817505EA191B12500067F933 /* DetalleAlbumViewController.m */; };
+		817505EE191B28790067F933 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 817505ED191B28790067F933 /* Album.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		817505D4191B10870067F933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 817505A6191B10860067F933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 817505AD191B10860067F933;
+			remoteInfo = MiMusicPlayerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		817505AE191B10860067F933 /* MiMusicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiMusicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		817505B1191B10860067F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		817505B3191B10860067F933 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		817505B5191B10860067F933 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		817505B9191B10860067F933 /* MiMusicPlayerApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiMusicPlayerApp-Info.plist"; sourceTree = "<group>"; };
+		817505BB191B10860067F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		817505BD191B10860067F933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		817505BF191B10860067F933 /* MiMusicPlayerApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiMusicPlayerApp-Prefix.pch"; sourceTree = "<group>"; };
+		817505C0191B10860067F933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		817505C1191B10860067F933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		817505C4191B10870067F933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		817505C6191B10870067F933 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		817505C7191B10870067F933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		817505C9191B10870067F933 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		817505CF191B10870067F933 /* MiMusicPlayerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiMusicPlayerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		817505D0191B10870067F933 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		817505D8191B10870067F933 /* MiMusicPlayerAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiMusicPlayerAppTests-Info.plist"; sourceTree = "<group>"; };
+		817505DA191B10870067F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		817505DC191B10870067F933 /* MiMusicPlayerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiMusicPlayerAppTests.m; sourceTree = "<group>"; };
+		817505E6191B12450067F933 /* AlbumesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumesViewController.h; sourceTree = "<group>"; };
+		817505E7191B12450067F933 /* AlbumesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumesViewController.m; sourceTree = "<group>"; };
+		817505E9191B12500067F933 /* DetalleAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleAlbumViewController.h; sourceTree = "<group>"; };
+		817505EA191B12500067F933 /* DetalleAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleAlbumViewController.m; sourceTree = "<group>"; };
+		817505EC191B28790067F933 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		817505ED191B28790067F933 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		817505AB191B10860067F933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817505B4191B10860067F933 /* CoreGraphics.framework in Frameworks */,
+				817505B6191B10860067F933 /* UIKit.framework in Frameworks */,
+				817505B2191B10860067F933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817505CC191B10870067F933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817505D1191B10870067F933 /* XCTest.framework in Frameworks */,
+				817505D3191B10870067F933 /* UIKit.framework in Frameworks */,
+				817505D2191B10870067F933 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		817505A5191B10860067F933 = {
+			isa = PBXGroup;
+			children = (
+				817505B7191B10860067F933 /* MiMusicPlayerApp */,
+				817505D6191B10870067F933 /* MiMusicPlayerAppTests */,
+				817505B0191B10860067F933 /* Frameworks */,
+				817505AF191B10860067F933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		817505AF191B10860067F933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				817505AE191B10860067F933 /* MiMusicPlayerApp.app */,
+				817505CF191B10870067F933 /* MiMusicPlayerAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		817505B0191B10860067F933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817505B1191B10860067F933 /* Foundation.framework */,
+				817505B3191B10860067F933 /* CoreGraphics.framework */,
+				817505B5191B10860067F933 /* UIKit.framework */,
+				817505D0191B10870067F933 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		817505B7191B10860067F933 /* MiMusicPlayerApp */ = {
+			isa = PBXGroup;
+			children = (
+				817505C0191B10860067F933 /* AppDelegate.h */,
+				817505C1191B10860067F933 /* AppDelegate.m */,
+				817505C3191B10870067F933 /* Main.storyboard */,
+				817505C6191B10870067F933 /* ViewController.h */,
+				817505C7191B10870067F933 /* ViewController.m */,
+				817505E6191B12450067F933 /* AlbumesViewController.h */,
+				817505E7191B12450067F933 /* AlbumesViewController.m */,
+				817505E9191B12500067F933 /* DetalleAlbumViewController.h */,
+				817505EA191B12500067F933 /* DetalleAlbumViewController.m */,
+				817505EC191B28790067F933 /* Album.h */,
+				817505ED191B28790067F933 /* Album.m */,
+				817505C9191B10870067F933 /* Images.xcassets */,
+				817505B8191B10860067F933 /* Supporting Files */,
+			);
+			path = MiMusicPlayerApp;
+			sourceTree = "<group>";
+		};
+		817505B8191B10860067F933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				817505B9191B10860067F933 /* MiMusicPlayerApp-Info.plist */,
+				817505BA191B10860067F933 /* InfoPlist.strings */,
+				817505BD191B10860067F933 /* main.m */,
+				817505BF191B10860067F933 /* MiMusicPlayerApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		817505D6191B10870067F933 /* MiMusicPlayerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				817505DC191B10870067F933 /* MiMusicPlayerAppTests.m */,
+				817505D7191B10870067F933 /* Supporting Files */,
+			);
+			path = MiMusicPlayerAppTests;
+			sourceTree = "<group>";
+		};
+		817505D7191B10870067F933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				817505D8191B10870067F933 /* MiMusicPlayerAppTests-Info.plist */,
+				817505D9191B10870067F933 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		817505AD191B10860067F933 /* MiMusicPlayerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817505E0191B10870067F933 /* Build configuration list for PBXNativeTarget "MiMusicPlayerApp" */;
+			buildPhases = (
+				817505AA191B10860067F933 /* Sources */,
+				817505AB191B10860067F933 /* Frameworks */,
+				817505AC191B10860067F933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiMusicPlayerApp;
+			productName = MiMusicPlayerApp;
+			productReference = 817505AE191B10860067F933 /* MiMusicPlayerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		817505CE191B10870067F933 /* MiMusicPlayerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 817505E3191B10870067F933 /* Build configuration list for PBXNativeTarget "MiMusicPlayerAppTests" */;
+			buildPhases = (
+				817505CB191B10870067F933 /* Sources */,
+				817505CC191B10870067F933 /* Frameworks */,
+				817505CD191B10870067F933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817505D5191B10870067F933 /* PBXTargetDependency */,
+			);
+			name = MiMusicPlayerAppTests;
+			productName = MiMusicPlayerAppTests;
+			productReference = 817505CF191B10870067F933 /* MiMusicPlayerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		817505A6191B10860067F933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Area51;
+				TargetAttributes = {
+					817505CE191B10870067F933 = {
+						TestTargetID = 817505AD191B10860067F933;
+					};
+				};
+			};
+			buildConfigurationList = 817505A9191B10860067F933 /* Build configuration list for PBXProject "MiMusicPlayerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 817505A5191B10860067F933;
+			productRefGroup = 817505AF191B10860067F933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				817505AD191B10860067F933 /* MiMusicPlayerApp */,
+				817505CE191B10870067F933 /* MiMusicPlayerAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		817505AC191B10860067F933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817505CA191B10870067F933 /* Images.xcassets in Resources */,
+				817505BC191B10860067F933 /* InfoPlist.strings in Resources */,
+				817505C5191B10870067F933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817505CD191B10870067F933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817505DB191B10870067F933 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		817505AA191B10860067F933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817505EB191B12500067F933 /* DetalleAlbumViewController.m in Sources */,
+				817505C8191B10870067F933 /* ViewController.m in Sources */,
+				817505C2191B10860067F933 /* AppDelegate.m in Sources */,
+				817505EE191B28790067F933 /* Album.m in Sources */,
+				817505E8191B12450067F933 /* AlbumesViewController.m in Sources */,
+				817505BE191B10860067F933 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817505CB191B10870067F933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				817505DD191B10870067F933 /* MiMusicPlayerAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		817505D5191B10870067F933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 817505AD191B10860067F933 /* MiMusicPlayerApp */;
+			targetProxy = 817505D4191B10870067F933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		817505BA191B10860067F933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817505BB191B10860067F933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		817505C3191B10870067F933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817505C4191B10870067F933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		817505D9191B10870067F933 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				817505DA191B10870067F933 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		817505DE191B10870067F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		817505DF191B10870067F933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		817505E1191B10870067F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiMusicPlayerApp/MiMusicPlayerApp-Prefix.pch";
+				INFOPLIST_FILE = "MiMusicPlayerApp/MiMusicPlayerApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		817505E2191B10870067F933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiMusicPlayerApp/MiMusicPlayerApp-Prefix.pch";
+				INFOPLIST_FILE = "MiMusicPlayerApp/MiMusicPlayerApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		817505E4191B10870067F933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiMusicPlayerApp.app/MiMusicPlayerApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiMusicPlayerApp/MiMusicPlayerApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MiMusicPlayerAppTests/MiMusicPlayerAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		817505E5191B10870067F933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiMusicPlayerApp.app/MiMusicPlayerApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiMusicPlayerApp/MiMusicPlayerApp-Prefix.pch";
+				INFOPLIST_FILE = "MiMusicPlayerAppTests/MiMusicPlayerAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		817505A9191B10860067F933 /* Build configuration list for PBXProject "MiMusicPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817505DE191B10870067F933 /* Debug */,
+				817505DF191B10870067F933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		817505E0191B10870067F933 /* Build configuration list for PBXNativeTarget "MiMusicPlayerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817505E1191B10870067F933 /* Debug */,
+				817505E2191B10870067F933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		817505E3191B10870067F933 /* Build configuration list for PBXNativeTarget "MiMusicPlayerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				817505E4191B10870067F933 /* Debug */,
+				817505E5191B10870067F933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 817505A6191B10860067F933 /* Project object */;
+}
