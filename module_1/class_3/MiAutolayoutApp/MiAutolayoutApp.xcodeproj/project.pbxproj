@@ -21,6 +21,7 @@
 		8175058C191860CA0067F933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8175056E191860C90067F933 /* UIKit.framework */; };
 		81750594191860CA0067F933 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81750592191860CA0067F933 /* InfoPlist.strings */; };
 		81750596191860CA0067F933 /* MiAutolayoutAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81750595191860CA0067F933 /* MiAutolayoutAppTests.m */; };
+		817505A01918877D0067F933 /* cover2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8175059F1918877D0067F933 /* cover2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		81750591191860CA0067F933 /* MiAutolayoutAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiAutolayoutAppTests-Info.plist"; sourceTree = "<group>"; };
 		81750593191860CA0067F933 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81750595191860CA0067F933 /* MiAutolayoutAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiAutolayoutAppTests.m; sourceTree = "<group>"; };
+		8175059F1918877D0067F933 /* cover2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		81750570191860C90067F933 /* MiAutolayoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				8175059F1918877D0067F933 /* cover2.jpg */,
 				81750579191860C90067F933 /* AppDelegate.h */,
 				8175057A191860C90067F933 /* AppDelegate.m */,
 				8175057C191860C90067F933 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			files = (
 				81750583191860C90067F933 /* Images.xcassets in Resources */,
 				81750575191860C90067F933 /* InfoPlist.strings in Resources */,
+				817505A01918877D0067F933 /* cover2.jpg in Resources */,
 				8175057E191860C90067F933 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
