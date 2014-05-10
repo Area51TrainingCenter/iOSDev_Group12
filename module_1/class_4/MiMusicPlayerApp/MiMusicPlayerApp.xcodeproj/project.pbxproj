@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81286707191DA7EA00B742EE /* Cancion.m in Sources */ = {isa = PBXBuildFile; fileRef = 81286706191DA7EA00B742EE /* Cancion.m */; };
+		81286709191DB9A300B742EE /* cover1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81286708191DB9A300B742EE /* cover1.png */; };
+		8128670C191DC06100B742EE /* CancionesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128670B191DC06100B742EE /* CancionesTableViewController.m */; };
 		817505B2191B10860067F933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B1191B10860067F933 /* Foundation.framework */; };
 		817505B4191B10860067F933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B3191B10860067F933 /* CoreGraphics.framework */; };
 		817505B6191B10860067F933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B5191B10860067F933 /* UIKit.framework */; };
@@ -37,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81286705191DA7EA00B742EE /* Cancion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cancion.h; sourceTree = "<group>"; };
+		81286706191DA7EA00B742EE /* Cancion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cancion.m; sourceTree = "<group>"; };
+		81286708191DB9A300B742EE /* cover1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover1.png; sourceTree = "<group>"; };
+		8128670A191DC06100B742EE /* CancionesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancionesTableViewController.h; sourceTree = "<group>"; };
+		8128670B191DC06100B742EE /* CancionesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancionesTableViewController.m; sourceTree = "<group>"; };
 		817505AE191B10860067F933 /* MiMusicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiMusicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817505B1191B10860067F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		817505B3191B10860067F933 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -130,8 +138,13 @@
 				817505E7191B12450067F933 /* AlbumesViewController.m */,
 				817505E9191B12500067F933 /* DetalleAlbumViewController.h */,
 				817505EA191B12500067F933 /* DetalleAlbumViewController.m */,
+				8128670A191DC06100B742EE /* CancionesTableViewController.h */,
+				8128670B191DC06100B742EE /* CancionesTableViewController.m */,
+				81286705191DA7EA00B742EE /* Cancion.h */,
+				81286706191DA7EA00B742EE /* Cancion.m */,
 				817505EC191B28790067F933 /* Album.h */,
 				817505ED191B28790067F933 /* Album.m */,
+				81286708191DB9A300B742EE /* cover1.png */,
 				817505C9191B10870067F933 /* Images.xcassets */,
 				817505B8191B10860067F933 /* Supporting Files */,
 			);
@@ -246,6 +259,7 @@
 				817505CA191B10870067F933 /* Images.xcassets in Resources */,
 				817505BC191B10860067F933 /* InfoPlist.strings in Resources */,
 				817505C5191B10870067F933 /* Main.storyboard in Resources */,
+				81286709191DB9A300B742EE /* cover1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +281,10 @@
 				817505EB191B12500067F933 /* DetalleAlbumViewController.m in Sources */,
 				817505C8191B10870067F933 /* ViewController.m in Sources */,
 				817505C2191B10860067F933 /* AppDelegate.m in Sources */,
+				8128670C191DC06100B742EE /* CancionesTableViewController.m in Sources */,
 				817505EE191B28790067F933 /* Album.m in Sources */,
 				817505E8191B12450067F933 /* AlbumesViewController.m in Sources */,
+				81286707191DA7EA00B742EE /* Cancion.m in Sources */,
 				817505BE191B10860067F933 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +494,7 @@
 				817505E2191B10870067F933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		817505E3191B10870067F933 /* Build configuration list for PBXNativeTarget "MiMusicPlayerAppTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +503,7 @@
 				817505E5191B10870067F933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

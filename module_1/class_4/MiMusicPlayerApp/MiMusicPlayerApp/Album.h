@@ -14,5 +14,6 @@
 @property (nonatomic) int anho;
 @property (nonatomic,strong) NSString *artista;
 @property (nonatomic,strong) NSArray *canciones;
+@property (nonatomic,strong) UIImage *poster;
 
 @end

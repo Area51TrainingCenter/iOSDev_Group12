@@ -7,8 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Album.h"
+#import "Cancion.h"
 
 @interface AlbumesViewController : UITableViewController
+{
+    Album *album1;
+}
+
 @property (weak, nonatomic) IBOutlet UITextField *albumTextField;
+
+@property (weak, nonatomic) IBOutlet UILabel *tituloAlbumLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numCancionesAlbumLabel;
+@property (weak, nonatomic) IBOutlet UILabel *anhoAlbumLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *posterAlbumView;
+
 
 @end

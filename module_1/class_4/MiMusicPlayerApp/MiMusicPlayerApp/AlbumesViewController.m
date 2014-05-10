@@ -8,6 +8,7 @@
 
 #import "AlbumesViewController.h"
 #import "DetalleAlbumViewController.h"
+#import "CancionesTableViewController.h"
 
 @interface AlbumesViewController ()
 
@@ -33,6 +34,28 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    album1 = [[Album alloc] init];
+    album1.titulo = @"Teenage Dream";
+    album1.artista = @"Katy Perry";
+    album1.anho = 2009;
+    album1.canciones = @[]; //[NSArray array]; //[[NSArray alloc] init];
+    album1.poster = [UIImage imageNamed:@"cover1"];
+}
+
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.tituloAlbumLabel.text = album1.titulo;
+    self.anhoAlbumLabel.text = [self pasarAString:album1.anho];
+    self.numCancionesAlbumLabel.text = [self pasarAString:album1.canciones.count];
+    self.posterAlbumView.image = album1.poster;
+}
+
+
+-(NSString *)pasarAString:(int)numero
+{
+    return [NSString stringWithFormat:@"%d",numero];
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,8 +93,19 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    DetalleAlbumViewController *destino = segue.destinationViewController;
-    destino.dato = self.albumTextField.text;
+    if ([segue.identifier isEqualToString:@"cancionesSegue"]) {
+        
+        CancionesTableViewController *destino = segue.destinationViewController;
+        destino.miAlbum = album1;
+        
+    }
+    else
+    {
+        DetalleAlbumViewController *destino = segue.destinationViewController;
+        destino.dato = self.albumTextField.text;
+    }
+    
+    
     
     
 }
