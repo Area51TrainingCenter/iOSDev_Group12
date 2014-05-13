@@ -22,6 +22,7 @@
 		81286743191DC57100B742EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81286741191DC57100B742EE /* InfoPlist.strings */; };
 		81286745191DC57100B742EE /* MiTablaDinamicaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81286744191DC57100B742EE /* MiTablaDinamicaAppTests.m */; };
 		81286750191DC5C600B742EE /* MiTablaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128674F191DC5C600B742EE /* MiTablaViewController.m */; };
+		815D213C1921B91E000E8128 /* FormularioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 815D213B1921B91E000E8128 /* FormularioCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		81286744191DC57100B742EE /* MiTablaDinamicaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiTablaDinamicaAppTests.m; sourceTree = "<group>"; };
 		8128674E191DC5C600B742EE /* MiTablaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiTablaViewController.h; sourceTree = "<group>"; };
 		8128674F191DC5C600B742EE /* MiTablaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiTablaViewController.m; sourceTree = "<group>"; };
+		815D213A1921B91E000E8128 /* FormularioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormularioCell.h; sourceTree = "<group>"; };
+		815D213B1921B91E000E8128 /* FormularioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormularioCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				81286728191DC57100B742EE /* AppDelegate.h */,
 				81286729191DC57100B742EE /* AppDelegate.m */,
 				8128672B191DC57100B742EE /* Main.storyboard */,
+				815D213A1921B91E000E8128 /* FormularioCell.h */,
+				815D213B1921B91E000E8128 /* FormularioCell.m */,
 				8128674E191DC5C600B742EE /* MiTablaViewController.h */,
 				8128674F191DC5C600B742EE /* MiTablaViewController.m */,
 				8128672E191DC57100B742EE /* ViewController.h */,
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815D213C1921B91E000E8128 /* FormularioCell.m in Sources */,
 				81286730191DC57100B742EE /* ViewController.m in Sources */,
 				8128672A191DC57100B742EE /* AppDelegate.m in Sources */,
 				81286726191DC57100B742EE /* main.m in Sources */,

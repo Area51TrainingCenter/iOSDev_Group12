@@ -10,6 +10,7 @@
 		81286707191DA7EA00B742EE /* Cancion.m in Sources */ = {isa = PBXBuildFile; fileRef = 81286706191DA7EA00B742EE /* Cancion.m */; };
 		81286709191DB9A300B742EE /* cover1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81286708191DB9A300B742EE /* cover1.png */; };
 		8128670C191DC06100B742EE /* CancionesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128670B191DC06100B742EE /* CancionesTableViewController.m */; };
+		815D21391921B64D000E8128 /* SoyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815D21381921B64D000E8128 /* SoyView.xib */; };
 		817505B2191B10860067F933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B1191B10860067F933 /* Foundation.framework */; };
 		817505B4191B10860067F933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B3191B10860067F933 /* CoreGraphics.framework */; };
 		817505B6191B10860067F933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B5191B10860067F933 /* UIKit.framework */; };
@@ -45,6 +46,7 @@
 		81286708191DB9A300B742EE /* cover1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover1.png; sourceTree = "<group>"; };
 		8128670A191DC06100B742EE /* CancionesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancionesTableViewController.h; sourceTree = "<group>"; };
 		8128670B191DC06100B742EE /* CancionesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancionesTableViewController.m; sourceTree = "<group>"; };
+		815D21381921B64D000E8128 /* SoyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoyView.xib; sourceTree = "<group>"; };
 		817505AE191B10860067F933 /* MiMusicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiMusicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817505B1191B10860067F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		817505B3191B10860067F933 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +134,7 @@
 				817505C0191B10860067F933 /* AppDelegate.h */,
 				817505C1191B10860067F933 /* AppDelegate.m */,
 				817505C3191B10870067F933 /* Main.storyboard */,
+				815D21381921B64D000E8128 /* SoyView.xib */,
 				817505C6191B10870067F933 /* ViewController.h */,
 				817505C7191B10870067F933 /* ViewController.m */,
 				817505E6191B12450067F933 /* AlbumesViewController.h */,
@@ -260,6 +263,7 @@
 				817505BC191B10860067F933 /* InfoPlist.strings in Resources */,
 				817505C5191B10870067F933 /* Main.storyboard in Resources */,
 				81286709191DB9A300B742EE /* cover1.png in Resources */,
+				815D21391921B64D000E8128 /* SoyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

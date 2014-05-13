@@ -9,6 +9,7 @@
 #import "AlbumesViewController.h"
 #import "DetalleAlbumViewController.h"
 #import "CancionesTableViewController.h"
+#import "Cancion.h"
 
 @interface AlbumesViewController ()
 
@@ -34,13 +35,26 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    Cancion *cancion1 = [[Cancion alloc] init];
+    cancion1.titulo = @"Eye of The Tiger";
+    
+    Cancion *cancion2 = [[Cancion alloc] init];
+    cancion2.titulo = @"Happy";
+    
+    Cancion *cancion3 = [[Cancion alloc] init];
+    cancion3.titulo = @"Don't stop me now";
+    
     
     album1 = [[Album alloc] init];
     album1.titulo = @"Teenage Dream";
     album1.artista = @"Katy Perry";
     album1.anho = 2009;
-    album1.canciones = @[]; //[NSArray array]; //[[NSArray alloc] init];
+    album1.canciones = @[cancion1,cancion2,cancion3]; //[NSArray array]; //[[NSArray alloc] init];
     album1.poster = [UIImage imageNamed:@"cover1"];
+    
+    
+    
+    
 }
 
 

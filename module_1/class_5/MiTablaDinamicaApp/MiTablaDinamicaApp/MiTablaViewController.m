@@ -7,6 +7,7 @@
 //
 
 #import "MiTablaViewController.h"
+#import "FormularioCell.h"
 
 @interface MiTablaViewController ()
 
@@ -61,12 +62,14 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"miPlantilla";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"formularioCelda";
+    
+    FormularioCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     
     // Configure the cell...
-    
+    cell.miCampo.text = [NSString stringWithFormat:@"Campo %d",indexPath.row];
+    cell.miTextField.placeholder = @"Escribe un nombre";
     
     return cell;
 }
