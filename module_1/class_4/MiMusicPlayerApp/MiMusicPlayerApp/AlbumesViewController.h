@@ -12,15 +12,10 @@
 
 @interface AlbumesViewController : UITableViewController
 {
-    Album *album1;
+    NSArray *albumes;
 }
 
-@property (weak, nonatomic) IBOutlet UITextField *albumTextField;
 
-@property (weak, nonatomic) IBOutlet UILabel *tituloAlbumLabel;
-@property (weak, nonatomic) IBOutlet UILabel *numCancionesAlbumLabel;
-@property (weak, nonatomic) IBOutlet UILabel *anhoAlbumLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *posterAlbumView;
 
 
 @end

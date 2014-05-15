@@ -10,6 +10,7 @@
 #import "DetalleAlbumViewController.h"
 #import "CancionesTableViewController.h"
 #import "Cancion.h"
+#import "AlbumCell.h"
 
 @interface AlbumesViewController ()
 
@@ -45,25 +46,65 @@
     cancion3.titulo = @"Don't stop me now";
     
     
-    album1 = [[Album alloc] init];
+    Album *album1 = [[Album alloc] init];
     album1.titulo = @"Teenage Dream";
     album1.artista = @"Katy Perry";
     album1.anho = 2009;
     album1.canciones = @[cancion1,cancion2,cancion3]; //[NSArray array]; //[[NSArray alloc] init];
     album1.poster = [UIImage imageNamed:@"cover1"];
     
+    /////////////////
     
     
+    Cancion *cancion10 = [[Cancion alloc] init];
+    cancion10.titulo = @"Teletubies Opening";
+    
+    Cancion *cancion11 = [[Cancion alloc] init];
+    cancion11.titulo = @"Pegasus fantasy";
+    
+    
+    Album *album2 = [[Album alloc] init];
+    album2.titulo = @"Variaditas";
+    album2.artista = @"El General";
+    album2.anho = 2016;
+    album2.canciones = @[cancion10,cancion11]; //[NSArray array]; //[[NSArray alloc] init];
+    album2.poster = [UIImage imageNamed:@"cover1"];
+    
+    albumes = @[album1,album2];
     
 }
 
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    self.tituloAlbumLabel.text = album1.titulo;
-    self.anhoAlbumLabel.text = [self pasarAString:album1.anho];
-    self.numCancionesAlbumLabel.text = [self pasarAString:album1.canciones.count];
-    self.posterAlbumView.image = album1.poster;
+    
+}
+
+
+-(int)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+-(int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return albumes.count;
+}
+
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    AlbumCell *cell = [tableView dequeueReusableCellWithIdentifier:@"plantillaAlbum"];
+    
+    Album *soyAlbum = albumes[indexPath.row];
+    
+    cell.tituloLabel.text = soyAlbum.titulo;
+    cell.anhoLabel.text = @(soyAlbum.anho).stringValue;
+    cell.numCancionesLabel.text = [NSString stringWithFormat:@"%d canciones",soyAlbum.canciones.count];
+    cell.posterView.image = soyAlbum.poster;
+    
+    
+    return cell;
 }
 
 
@@ -78,6 +119,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*
 -(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
 {
 
@@ -103,20 +145,19 @@
         return YES;
     }
 }
-
+*/
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"cancionesSegue"]) {
         
         CancionesTableViewController *destino = segue.destinationViewController;
-        destino.miAlbum = album1;
         
-    }
-    else
-    {
-        DetalleAlbumViewController *destino = segue.destinationViewController;
-        destino.dato = self.albumTextField.text;
+        Album *albumSeleccionado = albumes[self.tableView.indexPathForSelectedRow.row];
+        
+        
+        destino.miAlbum = albumSeleccionado;
+        
     }
     
     

@@ -11,6 +11,7 @@
 		81286709191DB9A300B742EE /* cover1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81286708191DB9A300B742EE /* cover1.png */; };
 		8128670C191DC06100B742EE /* CancionesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8128670B191DC06100B742EE /* CancionesTableViewController.m */; };
 		815D21391921B64D000E8128 /* SoyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815D21381921B64D000E8128 /* SoyView.xib */; };
+		815D213F19244B6E000E8128 /* AlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 815D213E19244B6E000E8128 /* AlbumCell.m */; };
 		817505B2191B10860067F933 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B1191B10860067F933 /* Foundation.framework */; };
 		817505B4191B10860067F933 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B3191B10860067F933 /* CoreGraphics.framework */; };
 		817505B6191B10860067F933 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817505B5191B10860067F933 /* UIKit.framework */; };
@@ -47,6 +48,8 @@
 		8128670A191DC06100B742EE /* CancionesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancionesTableViewController.h; sourceTree = "<group>"; };
 		8128670B191DC06100B742EE /* CancionesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancionesTableViewController.m; sourceTree = "<group>"; };
 		815D21381921B64D000E8128 /* SoyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SoyView.xib; sourceTree = "<group>"; };
+		815D213D19244B6E000E8128 /* AlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumCell.h; sourceTree = "<group>"; };
+		815D213E19244B6E000E8128 /* AlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumCell.m; sourceTree = "<group>"; };
 		817505AE191B10860067F933 /* MiMusicPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiMusicPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		817505B1191B10860067F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		817505B3191B10860067F933 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -134,6 +137,8 @@
 				817505C0191B10860067F933 /* AppDelegate.h */,
 				817505C1191B10860067F933 /* AppDelegate.m */,
 				817505C3191B10870067F933 /* Main.storyboard */,
+				815D213D19244B6E000E8128 /* AlbumCell.h */,
+				815D213E19244B6E000E8128 /* AlbumCell.m */,
 				815D21381921B64D000E8128 /* SoyView.xib */,
 				817505C6191B10870067F933 /* ViewController.h */,
 				817505C7191B10870067F933 /* ViewController.m */,
@@ -284,6 +289,7 @@
 			files = (
 				817505EB191B12500067F933 /* DetalleAlbumViewController.m in Sources */,
 				817505C8191B10870067F933 /* ViewController.m in Sources */,
+				815D213F19244B6E000E8128 /* AlbumCell.m in Sources */,
 				817505C2191B10860067F933 /* AppDelegate.m in Sources */,
 				8128670C191DC06100B742EE /* CancionesTableViewController.m in Sources */,
 				817505EE191B28790067F933 /* Album.m in Sources */,

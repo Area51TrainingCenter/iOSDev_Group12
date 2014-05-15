@@ -73,11 +73,6 @@
     return @"Canciones";
 }
 
--(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
