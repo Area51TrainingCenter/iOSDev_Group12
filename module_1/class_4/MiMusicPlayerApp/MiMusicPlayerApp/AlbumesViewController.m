@@ -72,6 +72,24 @@
     
     albumes = @[album1,album2];
     
+    ///////////
+    
+    NSString *rutaPlist = [[NSBundle mainBundle] pathForResource:@"GruposList" ofType:@"plist"];
+    
+    NSArray *gruposPlist = [NSArray arrayWithContentsOfFile:rutaPlist];
+    
+    NSDictionary *primerGrupo = gruposPlist[0];
+    primerGrupo[@"nombre"];
+    
+    for (NSDictionary *soyGrupo in gruposPlist) {
+        
+        Grupo *grupoObjeto = [[Grupo alloc] init];
+        grupoObjeto.nombre = soyGrupo[@"nombre"];
+        
+        
+        [gruposMeroMero add:bvbgrupoObjeto];
+    }
+    
 }
 
 

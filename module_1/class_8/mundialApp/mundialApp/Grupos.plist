@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nombre</key>
+		<string>A</string>
+		<key>paises</key>
+		<array>
+			<dict>
+				<key>bandera</key>
+				<string>pais2.jpg</string>
+				<key>nombre</key>
+				<string>Mozambique</string>
+				<key>poblacion</key>
+				<string>678000</string>
+				<key>area</key>
+				<string>834840</string>
+				<key>idioma</key>
+				<string>Inglés</string>
+				<key>titulares</key>
+				<array>
+					<dict>
+						<key>foto</key>
+						<string>jugador1.jpg</string>
+						<key>nombre</key>
+						<string>Condor Mendoza</string>
+					</dict>
+				</array>
+				<key>suplentes</key>
+				<array>
+					<dict>
+						<key>foto</key>
+						<string>jugador2.jpg</string>
+						<key>nombre</key>
+						<string>Kukin Flores</string>
+					</dict>
+					<dict>
+						<key>foto</key>
+						<string>jugador3.jpg</string>
+						<key>nombre</key>
+						<string>Cristiano Ronaldo</string>
+					</dict>
+				</array>
+				<key>dt</key>
+				<dict>
+					<key>foto</key>
+					<string>jugador3.jpg</string>
+					<key>nombre</key>
+					<string>Zico</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>bandera</key>
+				<string>pais1.jpg</string>
+				<key>nombre</key>
+				<string>Albania</string>
+				<key>poblacion</key>
+				<string>678000</string>
+				<key>area</key>
+				<string>834840</string>
+				<key>idioma</key>
+				<string>Albanés</string>
+				<key>titulares</key>
+				<array>
+					<dict>
+						<key>foto</key>
+						<string>jugador1.jpg</string>
+						<key>nombre</key>
+						<string>Condor Mendoza</string>
+					</dict>
+					<dict>
+						<key>foto</key>
+						<string>jugador2.jpg</string>
+						<key>nombre</key>
+						<string>Kukin Flores</string>
+					</dict>
+				</array>
+				<key>suplentes</key>
+				<array>
+					<dict>
+						<key>foto</key>
+						<string>jugador3.jpg</string>
+						<key>nombre</key>
+						<string>Cristiano Ronaldo</string>
+					</dict>
+				</array>
+				<key>dt</key>
+				<dict>
+					<key>foto</key>
+					<string>jugador4.jpg</string>
+					<key>nombre</key>
+					<string>Pep Guardiola</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>nombre</key>
+		<string>B</string>
+		<key>paises</key>
+		<array>
+			<dict>
+				<key>bandera</key>
+				<string>pais3.jpg</string>
+				<key>nombre</key>
+				<string>Peru</string>
+				<key>poblacion</key>
+				<string>9000</string>
+				<key>area</key>
+				<string>3.14159</string>
+				<key>idioma</key>
+				<string>Español</string>
+				<key>titulares</key>
+				<array>
+					<dict>
+						<key>foto</key>
+						<string>jugador2.jpg</string>
+						<key>nombre</key>
+						<string>Claudio Pizarro</string>
+					</dict>
+				</array>
+				<key>suplentes</key>
+				<array/>
+				<key>dt</key>
+				<dict>
+					<key>foto</key>
+					<string>jugador1.jpg</string>
+					<key>nombre</key>
+					<string>Cesar Uribe</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

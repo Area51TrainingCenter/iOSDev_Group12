@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nombre</key>
+		<string>A</string>
+		<key>paises</key>
+		<array>
+			<dict>
+				<key>nombre</key>
+				<string>Albania</string>
+				<key>bandera</key>
+				<string></string>
+				<key>poblacion</key>
+				<integer>45000</integer>
+				<key>titulares</key>
+				<array>
+					<dict>
+						<key>nombre</key>
+						<string></string>
+						<key>camiseta</key>
+						<string></string>
+						<key>foto</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>nombre</key>
+						<string></string>
+						<key>camiseta</key>
+						<string></string>
+						<key>foto</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>nombre</key>
+						<string></string>
+						<key>camiseta</key>
+						<string></string>
+						<key>foto</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>nombre</key>
+						<string></string>
+						<key>camiseta</key>
+						<string></string>
+						<key>foto</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>nombre</key>
+						<string></string>
+						<key>camiseta</key>
+						<string></string>
+						<key>foto</key>
+						<string></string>
+					</dict>
+				</array>
+				<key>suplentes</key>
+				<array/>
+				<key>directorTecnico</key>
+				<string>Pep Guardiola</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
