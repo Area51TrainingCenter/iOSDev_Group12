@@ -10,4 +10,13 @@
 
 @implementation Jugador
 
+-(id)init
+{
+   self = [super init];
+    
+    self.nombre = @"Rogelio";
+    
+    return self;
+}
+
 @end

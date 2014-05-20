@@ -35,7 +35,7 @@
                                 <connections>
                                     <outlet property="banderaView" destination="9js-qq-xIf" id="w1o-pU-sbN"/>
                                     <outlet property="nombreLabel" destination="jmj-JR-LVb" id="AAD-Qd-QsW"/>
-                                    <segue destination="Yhv-x2-bLR" kind="push" id="noZ-v8-5S6"/>
+                                    <segue destination="Yhv-x2-bLR" kind="push" identifier="detallePaisSegue" id="noZ-v8-5S6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -121,7 +121,7 @@
                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         </view>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="60" id="BUp-OH-THJ">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="plantillaJugador" rowHeight="60" id="BUp-OH-THJ" customClass="JugadorCell">
                                 <rect key="frame" x="0.0" y="198" width="320" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BUp-OH-THJ" id="xYz-KD-qXb">
@@ -140,6 +140,10 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="fotoView" destination="Dt7-Q3-wUA" id="Ggh-Qd-CRm"/>
+                                    <outlet property="nombreLabel" destination="UgH-F5-se9" id="YD8-xH-WO2"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -148,6 +152,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Nombre Pais" id="TDZ-yU-oCx"/>
+                    <connections>
+                        <outlet property="areaLabel" destination="ZAQ-9N-7tS" id="WRE-pn-Z1B"/>
+                        <outlet property="banderaView" destination="kUX-SI-Umb" id="h2n-gU-MQk"/>
+                        <outlet property="idiomaLabel" destination="0HZ-7e-Nd7" id="d7i-e2-3IO"/>
+                        <outlet property="poblacionLabel" destination="Spb-HF-Mdp" id="Qhq-Zs-4KM"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cve-SR-5nr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

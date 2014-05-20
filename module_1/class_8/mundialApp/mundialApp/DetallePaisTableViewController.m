@@ -7,6 +7,7 @@
 //
 
 #import "DetallePaisTableViewController.h"
+#import "JugadorCell.h"
 
 @interface DetallePaisTableViewController ()
 
@@ -32,6 +33,16 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.title = self.miPais.nombre;
+    
+    self.banderaView.image = self.miPais.bandera;
+    self.poblacionLabel.text = self.miPais.poblacion;
+    self.idiomaLabel.text = self.miPais.idioma;
+    self.areaLabel.text = self.miPais.area;
+    
+    existeDT = self.miPais.dt!=nil;
+    existenTitulares = self.miPais.titulares.count>0;
+    existenSuplentes = self.miPais.suplentes.count>0;
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,27 +55,152 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return (existeDT) + (existenTitulares) + (existenSuplentes);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    switch (section) {
+        case 0:
+            
+            if (existenTitulares) {
+                return self.miPais.titulares.count;
+            }
+            else if (existenSuplentes)
+            {
+                return self.miPais.suplentes.count;
+            }
+            else
+            {
+                return 1;
+            }
+            
+            break;
+        case 1:
+            
+            if (existenSuplentes)
+            {
+                return self.miPais.suplentes.count;
+            }
+            else
+            {
+                return 1;
+            }
+            
+            break;
+        case 2:
+            
+            return 1;
+            
+            break;
+            
+        default:
+            return 0;
+            break;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"plantillaJugador";
+    JugadorCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    Jugador *soyJugador;
     
     // Configure the cell...
+    switch (indexPath.section) {
+        case 0:
+            
+            if (existenTitulares) {
+                
+                soyJugador = self.miPais.titulares[indexPath.row];
+                
+               
+            }
+            else if (existenSuplentes)
+            {
+                soyJugador = self.miPais.suplentes[indexPath.row];
+                
+            }
+            else
+            {
+                soyJugador = self.miPais.dt;
+                
+            }
+            
+            break;
+        case 1:
+            
+            if (existenSuplentes)
+            {
+                soyJugador = self.miPais.suplentes[indexPath.row];
+                
+            }
+            else
+            {
+                soyJugador = self.miPais.dt;
+                
+            }
+            
+            break;
+        case 2:
+            
+            soyJugador = self.miPais.dt;
+            
+            break;
+    }
+    
+    cell.fotoView.image = soyJugador.foto;
+    cell.nombreLabel.text = soyJugador.nombre;
     
     return cell;
 }
+
+//-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    switch (section) {
+        case 0:
+            
+            if (existenTitulares) {
+                return @"Titulares";
+            }
+            else if (existenSuplentes)
+            {
+                return @"Suplentes";
+            }
+            else
+            {
+                return @"Director Técnico";
+            }
+            
+            break;
+        case 1:
+            
+            if (existenSuplentes)
+            {
+                return @"Suplentes";
+            }
+            else
+            {
+                return @"Director Técnico";
+            }
+            
+            break;
+        case 2:
+            
+            return @"Director Técnico";
+            
+            break;
+            
+        default:
+            return @"";
+            break;
+    }
+}
+
 
 /*
 // Override to support conditional editing of the table view.

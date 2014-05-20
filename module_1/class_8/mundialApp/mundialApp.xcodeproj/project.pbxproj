@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81314DA0192AD844004CBE1A /* JugadorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81314D9F192AD844004CBE1A /* JugadorCell.m */; };
 		815D21501926ECAA000E8128 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815D214F1926ECAA000E8128 /* Foundation.framework */; };
 		815D21521926ECAA000E8128 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815D21511926ECAA000E8128 /* CoreGraphics.framework */; };
 		815D21541926ECAA000E8128 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815D21531926ECAA000E8128 /* UIKit.framework */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81314D9E192AD844004CBE1A /* JugadorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JugadorCell.h; sourceTree = "<group>"; };
+		81314D9F192AD844004CBE1A /* JugadorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JugadorCell.m; sourceTree = "<group>"; };
 		815D214C1926ECAA000E8128 /* mundialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mundialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		815D214F1926ECAA000E8128 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		815D21511926ECAA000E8128 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -154,6 +157,8 @@
 				815D21971926F536000E8128 /* Grupos.plist */,
 				815D215F1926ECAA000E8128 /* AppDelegate.m */,
 				815D21611926ECAA000E8128 /* Main.storyboard */,
+				81314D9E192AD844004CBE1A /* JugadorCell.h */,
+				81314D9F192AD844004CBE1A /* JugadorCell.m */,
 				815D21A8192704FB000E8128 /* PaisCell.h */,
 				815D21A9192704FB000E8128 /* PaisCell.m */,
 				815D21A21926FEEA000E8128 /* PaisesTableViewController.h */,
@@ -329,6 +334,7 @@
 			files = (
 				815D219E1926FDBC000E8128 /* Pais.m in Sources */,
 				815D21A41926FEEA000E8128 /* PaisesTableViewController.m in Sources */,
+				81314DA0192AD844004CBE1A /* JugadorCell.m in Sources */,
 				815D219B1926FDB3000E8128 /* Jugador.m in Sources */,
 				815D21661926ECAA000E8128 /* ViewController.m in Sources */,
 				815D21AA192704FB000E8128 /* PaisCell.m in Sources */,
@@ -544,6 +550,7 @@
 				815D21801926ECAA000E8128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		815D21811926ECAA000E8128 /* Build configuration list for PBXNativeTarget "mundialAppTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +559,7 @@
 				815D21831926ECAA000E8128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

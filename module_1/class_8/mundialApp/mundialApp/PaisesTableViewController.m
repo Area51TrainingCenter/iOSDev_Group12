@@ -11,6 +11,7 @@
 #import "Pais.h"
 #import "Jugador.h"
 #import "PaisCell.h"
+#import "DetallePaisTableViewController.h"
 
 @interface PaisesTableViewController ()
 
@@ -174,7 +175,7 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
@@ -182,8 +183,22 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    if ([segue.identifier isEqualToString:@"detallePaisSegue"]) {
+        
+        DetallePaisTableViewController *destino = segue.destinationViewController;
+        
+        Pais *paisSeleccionado = ((Grupo *)grupos[self.tableView.indexPathForSelectedRow.section]).paises[self.tableView.indexPathForSelectedRow.row];
+        
+        destino.miPais = paisSeleccionado;
+    }
+    
+    
+    
+    
+    
 }
 
- */
+
 
 @end
