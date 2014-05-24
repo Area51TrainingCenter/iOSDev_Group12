@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YCZ-gj-Abf"/>
+                        <viewControllerLayoutGuide type="bottom" id="6vL-uK-OlI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uKV-jq-ywC">
+                                <rect key="frame" x="157" y="98" width="136" height="126"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.22955583639999999" green="0.36326167539999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Qt2-VC-Rpu" appends="YES" id="d2G-1a-x7d"/>
+                                    <outletCollection property="gestureRecognizers" destination="2g7-JN-cY6" appends="YES" id="Z5e-FX-NRm"/>
+                                    <outletCollection property="gestureRecognizers" destination="T8p-6f-Sui" appends="YES" id="yU1-n0-w38"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7sY-8L-l27">
+                                <rect key="frame" x="36" y="444" width="93" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.4836613589" blue="0.29349213619999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jUJ-Qi-fZx" appends="YES" id="bgX-Xl-bnf"/>
+                                    <outletCollection property="gestureRecognizers" destination="jUA-bb-UXG" appends="YES" id="j5e-Yx-AE0"/>
+                                    <outletCollection property="gestureRecognizers" destination="kcN-Jn-3jK" appends="YES" id="2qd-CD-RBh"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="primerView" destination="7sY-8L-l27" id="1w8-6v-ej8"/>
+                        <outlet property="segundoView" destination="uKV-jq-ywC" id="zL2-nx-Xwt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="kcN-Jn-3jK" userLabel="pan1">
+                    <connections>
+                        <action selector="seEstaHaciendoPan:" destination="vXZ-lx-hvc" id="YFg-Hd-dFn"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="T8p-6f-Sui" userLabel="pan2">
+                    <connections>
+                        <action selector="seEstaHaciendoPan:" destination="vXZ-lx-hvc" id="S7s-cj-I8I"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="jUA-bb-UXG" userLabel="dobleTap1">
+                    <connections>
+                        <action selector="seHizoDobleTap:" destination="vXZ-lx-hvc" id="x24-Dh-EaP"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="2g7-JN-cY6" userLabel="dobleTap2">
+                    <connections>
+                        <action selector="seHizoDobleTap:" destination="vXZ-lx-hvc" id="guj-1T-HYX"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="jUJ-Qi-fZx" userLabel="tap1">
+                    <connections>
+                        <action selector="seHizoTap:" destination="vXZ-lx-hvc" id="4AR-ch-wWP"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Qt2-VC-Rpu" userLabel="tap2">
+                    <connections>
+                        <action selector="seHizoTap:" destination="vXZ-lx-hvc" id="IId-z2-4f0"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
