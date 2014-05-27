@@ -24,6 +24,7 @@
                                     <outletCollection property="gestureRecognizers" destination="Qt2-VC-Rpu" appends="YES" id="d2G-1a-x7d"/>
                                     <outletCollection property="gestureRecognizers" destination="2g7-JN-cY6" appends="YES" id="Z5e-FX-NRm"/>
                                     <outletCollection property="gestureRecognizers" destination="T8p-6f-Sui" appends="YES" id="yU1-n0-w38"/>
+                                    <outletCollection property="gestureRecognizers" destination="Opx-eO-NKf" appends="YES" id="bQt-j4-2ln"/>
                                 </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7sY-8L-l27">
@@ -34,8 +35,19 @@
                                     <outletCollection property="gestureRecognizers" destination="jUJ-Qi-fZx" appends="YES" id="bgX-Xl-bnf"/>
                                     <outletCollection property="gestureRecognizers" destination="jUA-bb-UXG" appends="YES" id="j5e-Yx-AE0"/>
                                     <outletCollection property="gestureRecognizers" destination="kcN-Jn-3jK" appends="YES" id="2qd-CD-RBh"/>
+                                    <outletCollection property="gestureRecognizers" destination="VQe-p6-7wp" appends="YES" id="3uW-gv-TA1"/>
                                 </connections>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tP-lO-293">
+                                <rect key="frame" x="20" y="15" width="67" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="aparecerMenu:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BGd-fi-1hg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -45,6 +57,16 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="VQe-p6-7wp" userLabel="pinch1">
+                    <connections>
+                        <action selector="seEstaHaciendoPinch:" destination="vXZ-lx-hvc" id="phg-fx-cso"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="Opx-eO-NKf" userLabel="pinch2">
+                    <connections>
+                        <action selector="seEstaHaciendoPinch:" destination="vXZ-lx-hvc" id="NyO-YK-3TZ"/>
+                    </connections>
+                </pinchGestureRecognizer>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="kcN-Jn-3jK" userLabel="pan1">
                     <connections>
                         <action selector="seEstaHaciendoPan:" destination="vXZ-lx-hvc" id="YFg-Hd-dFn"/>
