@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gcp-Si-gQl">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="BxJ-fh-0re">
+            <objects>
+                <viewController id="gcp-Si-gQl" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BB7-QB-dov"/>
+                        <viewControllerLayoutGuide type="bottom" id="NZ8-CW-fCs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3MW-ED-kZR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54Y-c2-7Qo">
+                                <rect key="frame" x="191" y="282" width="91" height="91"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="8KB-G1-Loo"/>
+                                    <constraint firstAttribute="width" constant="91" id="z3z-HY-gKe"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bla-Ug-czt">
+                                <rect key="frame" x="84" y="295" width="63" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34315770270000001" green="0.90587133289999999" blue="0.43748465749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="vbZ-wu-1qm"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJg-9d-sHS">
+                                <rect key="frame" x="137" y="45" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="accionAutolayout:" destination="gcp-Si-gQl" eventType="touchUpInside" id="Ug8-Yn-232"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NZ8-CW-fCs" firstAttribute="top" secondItem="54Y-c2-7Qo" secondAttribute="bottom" constant="195" id="210-qH-D5W"/>
+                            <constraint firstAttribute="trailing" secondItem="54Y-c2-7Qo" secondAttribute="trailing" constant="38" id="DaR-O6-2IF"/>
+                            <constraint firstItem="54Y-c2-7Qo" firstAttribute="top" secondItem="Bla-Ug-czt" secondAttribute="top" constant="-13" id="x7h-RQ-bYm"/>
+                            <constraint firstItem="54Y-c2-7Qo" firstAttribute="bottom" secondItem="Bla-Ug-czt" secondAttribute="bottom" constant="12" id="y5v-Gf-MrN"/>
+                            <constraint firstItem="54Y-c2-7Qo" firstAttribute="leading" secondItem="Bla-Ug-czt" secondAttribute="trailing" constant="44" id="yV0-fq-HR2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="altoRojo" destination="8KB-G1-Loo" id="hOX-uH-3eL"/>
+                        <outlet property="miEspacioVertical" destination="210-qH-D5W" id="wih-un-LEo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hsA-fd-8XM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="569" y="203"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
