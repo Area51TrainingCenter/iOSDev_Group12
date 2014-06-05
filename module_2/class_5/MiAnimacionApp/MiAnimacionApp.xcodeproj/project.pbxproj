@@ -23,6 +23,8 @@
 		813345C41939593C0010C16F /* MiAnimacionAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813345C31939593C0010C16F /* MiAnimacionAppTests.m */; };
 		813345CE193965B70010C16F /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 813345CD193965B70010C16F /* images-3.jpeg */; };
 		813345D11939761B0010C16F /* Ejercicio1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813345D01939761B0010C16F /* Ejercicio1ViewController.m */; };
+		813345D4193D55340010C16F /* MiCeldaCodigoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 813345D3193D55340010C16F /* MiCeldaCodigoCell.m */; };
+		813345D7193D55B30010C16F /* TablaCodigoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813345D6193D55B30010C16F /* TablaCodigoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		813345CD193965B70010C16F /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
 		813345CF1939761B0010C16F /* Ejercicio1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ejercicio1ViewController.h; sourceTree = "<group>"; };
 		813345D01939761B0010C16F /* Ejercicio1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ejercicio1ViewController.m; sourceTree = "<group>"; };
+		813345D2193D55340010C16F /* MiCeldaCodigoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCeldaCodigoCell.h; sourceTree = "<group>"; };
+		813345D3193D55340010C16F /* MiCeldaCodigoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiCeldaCodigoCell.m; sourceTree = "<group>"; };
+		813345D5193D55B30010C16F /* TablaCodigoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaCodigoViewController.h; sourceTree = "<group>"; };
+		813345D6193D55B30010C16F /* TablaCodigoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaCodigoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +126,12 @@
 				813345A71939593B0010C16F /* AppDelegate.h */,
 				813345A81939593B0010C16F /* AppDelegate.m */,
 				813345AA1939593B0010C16F /* Main.storyboard */,
+				813345D2193D55340010C16F /* MiCeldaCodigoCell.h */,
+				813345D3193D55340010C16F /* MiCeldaCodigoCell.m */,
 				813345CF1939761B0010C16F /* Ejercicio1ViewController.h */,
 				813345D01939761B0010C16F /* Ejercicio1ViewController.m */,
+				813345D5193D55B30010C16F /* TablaCodigoViewController.h */,
+				813345D6193D55B30010C16F /* TablaCodigoViewController.m */,
 				813345AD1939593B0010C16F /* ViewController.h */,
 				813345AE1939593B0010C16F /* ViewController.m */,
 				813345CD193965B70010C16F /* images-3.jpeg */,
@@ -258,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813345D7193D55B30010C16F /* TablaCodigoViewController.m in Sources */,
 				813345AF1939593B0010C16F /* ViewController.m in Sources */,
+				813345D4193D55340010C16F /* MiCeldaCodigoCell.m in Sources */,
 				813345A91939593B0010C16F /* AppDelegate.m in Sources */,
 				813345D11939761B0010C16F /* Ejercicio1ViewController.m in Sources */,
 				813345A51939593B0010C16F /* main.m in Sources */,
@@ -470,6 +482,7 @@
 				813345C91939593C0010C16F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		813345CA1939593C0010C16F /* Build configuration list for PBXNativeTarget "MiAnimacionAppTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +491,7 @@
 				813345CC1939593C0010C16F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
