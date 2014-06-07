@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E39379F7-9EB0-494B-B44C-B480B41599AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MiMasterDetailApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CFB35908-E2F8-49F4-B5F6-EAA6CCC56709</key>
+		<string>http://github.com/Area51TrainingCenter/iOSDev_Group12</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>module_2/class_8/MiMasterDetailApp/MiMasterDetailApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CFB35908-E2F8-49F4-B5F6-EAA6CCC56709</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://github.com/Area51TrainingCenter/iOSDev_Group12</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CFB35908-E2F8-49F4-B5F6-EAA6CCC56709</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CFB35908-E2F8-49F4-B5F6-EAA6CCC56709</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSDev_Group12</string>
+		</dict>
+	</array>
+</dict>
+</plist>
