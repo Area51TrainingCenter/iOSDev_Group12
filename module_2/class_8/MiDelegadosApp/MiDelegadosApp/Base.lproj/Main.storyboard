@@ -61,6 +61,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Papa" id="VOI-gF-gSm"/>
+                    <connections>
+                        <outlet property="textoHeredadoLabel" destination="zzI-NM-kLF" id="BKE-Ov-Jdz"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IcY-A2-jev" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,6 +126,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Hijo" id="luJ-it-IOk"/>
+                    <connections>
+                        <outlet property="miTextfield" destination="itJ-j0-e78" id="rNj-TX-OIA"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VH5-YL-ccs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

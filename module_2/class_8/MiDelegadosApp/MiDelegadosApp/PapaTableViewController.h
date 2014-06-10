@@ -10,5 +10,6 @@
 #import "HijoTableViewController.h"
 
 @interface PapaTableViewController : UITableViewController <PapaDelegado>
+@property (weak, nonatomic) IBOutlet UILabel *textoHeredadoLabel;
 
 @end

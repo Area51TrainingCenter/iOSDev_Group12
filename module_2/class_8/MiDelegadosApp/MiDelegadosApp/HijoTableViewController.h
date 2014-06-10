@@ -12,6 +12,7 @@
 @protocol PapaDelegado <NSObject>
 
 -(void)mostrarAlerta;
+-(void)escribioTexto:(NSString *)nuevoTexto;
 
 @end
 
@@ -19,5 +20,8 @@
 @interface HijoTableViewController : UITableViewController
 
 @property (strong,nonatomic) id<PapaDelegado> miDelegado;
+@property (weak, nonatomic) IBOutlet UITextField *miTextfield;
+@property (strong,nonatomic) NSString *nuevoTexto;
+
 
 @end

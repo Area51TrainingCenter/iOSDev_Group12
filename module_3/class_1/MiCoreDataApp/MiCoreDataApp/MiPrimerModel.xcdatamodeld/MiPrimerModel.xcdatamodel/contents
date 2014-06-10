@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Entrenador" representedClassName="Entrenador" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puebloOrigen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexo" optional="YES" attributeType="Integer 64" syncable="YES"/>
+        <relationship name="medallas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Medalla" syncable="YES"/>
+        <relationship name="pokemones" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pokemon" inverseName="entrenador" inverseEntity="Pokemon" syncable="YES"/>
+    </entity>
+    <entity name="Medalla" representedClassName="Medalla" syncable="YES">
+        <attribute name="gimnasio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagen" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Pokemon" representedClassName="Pokemon" syncable="YES">
+        <attribute name="nivel" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orden" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sexo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entrenador" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entrenador" inverseName="pokemones" inverseEntity="Entrenador" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entrenador" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="Pokemon" positionX="-54" positionY="18" width="128" height="133"/>
+        <element name="Medalla" positionX="-36" positionY="72" width="128" height="88"/>
+    </elements>
+</model>
