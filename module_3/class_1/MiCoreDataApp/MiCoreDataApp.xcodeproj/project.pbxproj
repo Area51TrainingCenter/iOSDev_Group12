@@ -50,9 +50,9 @@
 		8148C9391946A178007F7EAB /* IBMessageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148C91C1946A178007F7EAB /* IBMessageProcessor.m */; };
 		8148C93A1946A178007F7EAB /* IBTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148C91E1946A178007F7EAB /* IBTargetAction.m */; };
 		8148C93D1946A5B0007F7EAB /* MiPrimerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8148C93B1946A5B0007F7EAB /* MiPrimerModel.xcdatamodeld */; };
-		8148C9401946AB0E007F7EAB /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148C93F1946AB0E007F7EAB /* Pokemon.m */; };
 		8148C9431946AB0E007F7EAB /* Entrenador.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148C9421946AB0E007F7EAB /* Entrenador.m */; };
 		8148C9461946AB0E007F7EAB /* Medalla.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148C9451946AB0E007F7EAB /* Medalla.m */; };
+		81BC5AFE194933C000416C3F /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BC5AFD194933C000416C3F /* Pokemon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,12 +145,12 @@
 		8148C91D1946A178007F7EAB /* IBTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBTargetAction.h; sourceTree = "<group>"; };
 		8148C91E1946A178007F7EAB /* IBTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBTargetAction.m; sourceTree = "<group>"; };
 		8148C93C1946A5B0007F7EAB /* MiPrimerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiPrimerModel.xcdatamodel; sourceTree = "<group>"; };
-		8148C93E1946AB0E007F7EAB /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
-		8148C93F1946AB0E007F7EAB /* Pokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
 		8148C9411946AB0E007F7EAB /* Entrenador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entrenador.h; sourceTree = "<group>"; };
 		8148C9421946AB0E007F7EAB /* Entrenador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entrenador.m; sourceTree = "<group>"; };
 		8148C9441946AB0E007F7EAB /* Medalla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medalla.h; sourceTree = "<group>"; };
 		8148C9451946AB0E007F7EAB /* Medalla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medalla.m; sourceTree = "<group>"; };
+		81BC5AFC194933C000416C3F /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
+		81BC5AFD194933C000416C3F /* Pokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +210,7 @@
 		8148C8AC1946A143007F7EAB /* MiCoreDataApp */ = {
 			isa = PBXGroup;
 			children = (
+				81BC5AFB19492DD500416C3F /* Modelo */,
 				8148C8DB1946A178007F7EAB /* InnerBand */,
 				8148C8B51946A143007F7EAB /* AppDelegate.h */,
 				8148C8B61946A143007F7EAB /* AppDelegate.m */,
@@ -217,12 +218,6 @@
 				8148C8BB1946A143007F7EAB /* ViewController.h */,
 				8148C8BC1946A143007F7EAB /* ViewController.m */,
 				8148C93B1946A5B0007F7EAB /* MiPrimerModel.xcdatamodeld */,
-				8148C9441946AB0E007F7EAB /* Medalla.h */,
-				8148C9451946AB0E007F7EAB /* Medalla.m */,
-				8148C9411946AB0E007F7EAB /* Entrenador.h */,
-				8148C9421946AB0E007F7EAB /* Entrenador.m */,
-				8148C93E1946AB0E007F7EAB /* Pokemon.h */,
-				8148C93F1946AB0E007F7EAB /* Pokemon.m */,
 				8148C8BE1946A143007F7EAB /* Images.xcassets */,
 				8148C8AD1946A143007F7EAB /* Supporting Files */,
 			);
@@ -388,6 +383,19 @@
 			path = "Dispatch Messages";
 			sourceTree = "<group>";
 		};
+		81BC5AFB19492DD500416C3F /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				8148C9441946AB0E007F7EAB /* Medalla.h */,
+				8148C9451946AB0E007F7EAB /* Medalla.m */,
+				8148C9411946AB0E007F7EAB /* Entrenador.h */,
+				8148C9421946AB0E007F7EAB /* Entrenador.m */,
+				81BC5AFC194933C000416C3F /* Pokemon.h */,
+				81BC5AFD194933C000416C3F /* Pokemon.m */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -508,7 +516,6 @@
 				8148C9431946AB0E007F7EAB /* Entrenador.m in Sources */,
 				8148C8B71946A143007F7EAB /* AppDelegate.m in Sources */,
 				8148C8B31946A143007F7EAB /* main.m in Sources */,
-				8148C9401946AB0E007F7EAB /* Pokemon.m in Sources */,
 				8148C92E1946A178007F7EAB /* UIImage+InnerBand.m in Sources */,
 				8148C9341946A178007F7EAB /* IBHTTPGetRequestMessage.m in Sources */,
 				8148C9351946A178007F7EAB /* IBHTTPPostRequestMessage.m in Sources */,
@@ -519,6 +526,7 @@
 				8148C9211946A178007F7EAB /* IBCoreTextLabel.m in Sources */,
 				8148C92F1946A178007F7EAB /* UIView+InnerBand.m in Sources */,
 				8148C92C1946A178007F7EAB /* NSString+InnerBand.m in Sources */,
+				81BC5AFE194933C000416C3F /* Pokemon.m in Sources */,
 				8148C9391946A178007F7EAB /* IBMessageProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -647,6 +655,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiCoreDataApp/MiCoreDataApp-Prefix.pch";
 				INFOPLIST_FILE = "MiCoreDataApp/MiCoreDataApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -660,6 +669,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiCoreDataApp/MiCoreDataApp-Prefix.pch";
 				INFOPLIST_FILE = "MiCoreDataApp/MiCoreDataApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -724,6 +734,7 @@
 				8148C8D71946A143007F7EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8148C8D81946A143007F7EAB /* Build configuration list for PBXNativeTarget "MiCoreDataAppTests" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +743,7 @@
 				8148C8DA1946A143007F7EAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

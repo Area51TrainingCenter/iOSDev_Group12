@@ -14,6 +14,6 @@
 
 @property (nonatomic, retain) NSString * nombre;
 @property (nonatomic, retain) NSString * gimnasio;
-@property (nonatomic, retain) id imagen;
+@property (nonatomic, retain) UIImage * imagen;
 
 @end
