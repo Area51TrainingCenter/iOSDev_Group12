@@ -1,52 +1,18 @@
 //
 //  AppDelegate.m
-//  MiCoreDataApp
+//  MultimediaApp
 //
-//  Created by iOS on 6/9/14.
+//  Created by iOS on 6/16/14.
 //  Copyright (c) 2014 Area51. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "Pokemon.h"
-#import "Entrenador.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSUserDefaults *miDefaults = [NSUserDefaults standardUserDefaults];
-    
-    if (![miDefaults boolForKey:@"seCargoPrimeraVez"]) {
-        
-        NSArray *entrenadoresPlist = [NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Entrenadores" ofType:@"plist"]];
-        
-        for (NSDictionary *soyEntrenador in entrenadoresPlist) {
-            
-            Entrenador *nuevoEntrenador = [Entrenador create];
-            nuevoEntrenador.nombre = soyEntrenador[@"nombre"];
-            nuevoEntrenador.sexo = soyEntrenador[@"sexo"];
-            nuevoEntrenador.puebloOrigen = soyEntrenador[@"puebloOrigen"];
-            
-            for (NSDictionary *soyPokemon in soyEntrenador[@"pokemones"]) {
-                Pokemon *nuevoPokemon = [Pokemon create];
-                nuevoPokemon.nombre = soyPokemon[@"nombre"];
-                nuevoPokemon.sexo = soyPokemon[@"sexo"];
-                nuevoPokemon.tipo = soyPokemon[@"tipo"];
-                nuevoPokemon.nivel = soyPokemon[@"nivel"];
-                
-                [nuevoEntrenador addPokemonesObject:nuevoPokemon];
-            }
-        }
-        
-        [[IBCoreDataStore mainStore] save];
-        
-        [miDefaults setBool:YES forKey:@"seCargoPrimeraVez"];
-        
-    }
-    
-    
-    
     return YES;
 }
 							

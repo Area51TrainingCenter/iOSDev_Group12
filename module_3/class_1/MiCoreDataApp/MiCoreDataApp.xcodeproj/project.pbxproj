@@ -52,6 +52,9 @@
 		8148C93D1946A5B0007F7EAB /* MiPrimerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8148C93B1946A5B0007F7EAB /* MiPrimerModel.xcdatamodeld */; };
 		8148C9431946AB0E007F7EAB /* Entrenador.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148C9421946AB0E007F7EAB /* Entrenador.m */; };
 		8148C9461946AB0E007F7EAB /* Medalla.m in Sources */ = {isa = PBXBuildFile; fileRef = 8148C9451946AB0E007F7EAB /* Medalla.m */; };
+		818205E1194FC616009170FD /* Entrenadores.plist in Resources */ = {isa = PBXBuildFile; fileRef = 818205E0194FC616009170FD /* Entrenadores.plist */; };
+		818205E4194FCABB009170FD /* EntrenadoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818205E3194FCABB009170FD /* EntrenadoresTableViewController.m */; };
+		818205E7194FCAC8009170FD /* DetalleEntrenadorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 818205E6194FCAC8009170FD /* DetalleEntrenadorTableViewController.m */; };
 		81BC5AFE194933C000416C3F /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BC5AFD194933C000416C3F /* Pokemon.m */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +152,11 @@
 		8148C9421946AB0E007F7EAB /* Entrenador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entrenador.m; sourceTree = "<group>"; };
 		8148C9441946AB0E007F7EAB /* Medalla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Medalla.h; sourceTree = "<group>"; };
 		8148C9451946AB0E007F7EAB /* Medalla.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Medalla.m; sourceTree = "<group>"; };
+		818205E0194FC616009170FD /* Entrenadores.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entrenadores.plist; sourceTree = "<group>"; };
+		818205E2194FCABB009170FD /* EntrenadoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntrenadoresTableViewController.h; sourceTree = "<group>"; };
+		818205E3194FCABB009170FD /* EntrenadoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntrenadoresTableViewController.m; sourceTree = "<group>"; };
+		818205E5194FCAC8009170FD /* DetalleEntrenadorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleEntrenadorTableViewController.h; sourceTree = "<group>"; };
+		818205E6194FCAC8009170FD /* DetalleEntrenadorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleEntrenadorTableViewController.m; sourceTree = "<group>"; };
 		81BC5AFC194933C000416C3F /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
 		81BC5AFD194933C000416C3F /* Pokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,7 +222,12 @@
 				8148C8DB1946A178007F7EAB /* InnerBand */,
 				8148C8B51946A143007F7EAB /* AppDelegate.h */,
 				8148C8B61946A143007F7EAB /* AppDelegate.m */,
+				818205E0194FC616009170FD /* Entrenadores.plist */,
 				8148C8B81946A143007F7EAB /* Main.storyboard */,
+				818205E2194FCABB009170FD /* EntrenadoresTableViewController.h */,
+				818205E3194FCABB009170FD /* EntrenadoresTableViewController.m */,
+				818205E5194FCAC8009170FD /* DetalleEntrenadorTableViewController.h */,
+				818205E6194FCAC8009170FD /* DetalleEntrenadorTableViewController.m */,
 				8148C8BB1946A143007F7EAB /* ViewController.h */,
 				8148C8BC1946A143007F7EAB /* ViewController.m */,
 				8148C93B1946A5B0007F7EAB /* MiPrimerModel.xcdatamodeld */,
@@ -474,6 +487,7 @@
 			files = (
 				8148C8BF1946A143007F7EAB /* Images.xcassets in Resources */,
 				8148C8B11946A143007F7EAB /* InfoPlist.strings in Resources */,
+				818205E1194FC616009170FD /* Entrenadores.plist in Resources */,
 				8148C8BA1946A143007F7EAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +514,7 @@
 				8148C9321946A178007F7EAB /* IBCoreDataStore.m in Sources */,
 				8148C9381946A178007F7EAB /* IBMessageCenter.m in Sources */,
 				8148C9261946A178007F7EAB /* NSManagedObject+InnerBand.m in Sources */,
+				818205E4194FCABB009170FD /* EntrenadoresTableViewController.m in Sources */,
 				8148C93A1946A178007F7EAB /* IBTargetAction.m in Sources */,
 				8148C93D1946A5B0007F7EAB /* MiPrimerModel.xcdatamodeld in Sources */,
 				8148C9271946A178007F7EAB /* NSMutableArray+InnerBand.m in Sources */,
@@ -522,6 +537,7 @@
 				8148C9241946A178007F7EAB /* NSArray+InnerBand.m in Sources */,
 				8148C9371946A178007F7EAB /* IBDispatchMessage.m in Sources */,
 				8148C9361946A178007F7EAB /* IBSequencedMessage.m in Sources */,
+				818205E7194FCAC8009170FD /* DetalleEntrenadorTableViewController.m in Sources */,
 				8148C9281946A178007F7EAB /* NSMutableString+InnerBand.m in Sources */,
 				8148C9211946A178007F7EAB /* IBCoreTextLabel.m in Sources */,
 				8148C92F1946A178007F7EAB /* UIView+InnerBand.m in Sources */,
