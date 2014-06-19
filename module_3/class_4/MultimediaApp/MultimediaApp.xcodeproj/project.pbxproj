@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8101314A1952645F00EA93DB /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 810131491952645F00EA93DB /* video1.mp4 */; };
+		8101314C19526E6400EA93DB /* audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8101314B19526E6400EA93DB /* audio1.mp3 */; };
+		8101314E19526F7C00EA93DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8101314D19526F7C00EA93DB /* AVFoundation.framework */; };
 		81820636194FDF86009170FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820635194FDF86009170FD /* Foundation.framework */; };
 		81820638194FDF86009170FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820637194FDF86009170FD /* CoreGraphics.framework */; };
 		8182063A194FDF86009170FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820639194FDF86009170FD /* UIKit.framework */; };
@@ -23,7 +26,6 @@
 		8182066B194FE435009170FD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8182066A194FE435009170FD /* MediaPlayer.framework */; };
 		8182066D194FE471009170FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8182066C194FE471009170FD /* Main.storyboard */; };
 		81820670194FE63B009170FD /* MultimediaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8182066F194FE63B009170FD /* MultimediaTableViewController.m */; };
-		81820674194FE988009170FD /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81820673194FE988009170FD /* video1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		810131491952645F00EA93DB /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		8101314B19526E6400EA93DB /* audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio1.mp3; sourceTree = "<group>"; };
+		8101314D19526F7C00EA93DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		81820632194FDF86009170FD /* MultimediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultimediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81820635194FDF86009170FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81820637194FDF86009170FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,7 +64,6 @@
 		8182066C194FE471009170FD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8182066E194FE63B009170FD /* MultimediaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaTableViewController.h; sourceTree = "<group>"; };
 		8182066F194FE63B009170FD /* MultimediaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultimediaTableViewController.m; sourceTree = "<group>"; };
-		81820673194FE988009170FD /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8101314E19526F7C00EA93DB /* AVFoundation.framework in Frameworks */,
 				8182066B194FE435009170FD /* MediaPlayer.framework in Frameworks */,
 				81820638194FDF86009170FD /* CoreGraphics.framework in Frameworks */,
 				8182063A194FDF86009170FD /* UIKit.framework in Frameworks */,
@@ -109,6 +114,7 @@
 		81820634194FDF86009170FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8101314D19526F7C00EA93DB /* AVFoundation.framework */,
 				8182066A194FE435009170FD /* MediaPlayer.framework */,
 				81820635194FDF86009170FD /* Foundation.framework */,
 				81820637194FDF86009170FD /* CoreGraphics.framework */,
@@ -121,7 +127,8 @@
 		8182063B194FDF86009170FD /* MultimediaApp */ = {
 			isa = PBXGroup;
 			children = (
-				81820673194FE988009170FD /* video1.mp4 */,
+				8101314B19526E6400EA93DB /* audio1.mp3 */,
+				810131491952645F00EA93DB /* video1.mp4 */,
 				81820644194FDF86009170FD /* AppDelegate.h */,
 				81820645194FDF86009170FD /* AppDelegate.m */,
 				8182066C194FE471009170FD /* Main.storyboard */,
@@ -211,6 +218,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Area51;
 				TargetAttributes = {
+					81820631194FDF86009170FD = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					81820652194FDF86009170FD = {
 						TestTargetID = 81820631194FDF86009170FD;
 					};
@@ -241,7 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8182066D194FE471009170FD /* Main.storyboard in Resources */,
-				81820674194FE988009170FD /* video1.mp4 in Resources */,
+				8101314A1952645F00EA93DB /* video1.mp4 in Resources */,
+				8101314C19526E6400EA93DB /* audio1.mp3 in Resources */,
 				8182064E194FDF86009170FD /* Images.xcassets in Resources */,
 				81820640194FDF86009170FD /* InfoPlist.strings in Resources */,
 			);
@@ -466,6 +481,7 @@
 				81820666194FDF86009170FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81820667194FDF86009170FD /* Build configuration list for PBXNativeTarget "MultimediaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +490,7 @@
 				81820669194FDF86009170FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
