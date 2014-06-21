@@ -10,6 +10,8 @@
 		8101314A1952645F00EA93DB /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 810131491952645F00EA93DB /* video1.mp4 */; };
 		8101314C19526E6400EA93DB /* audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8101314B19526E6400EA93DB /* audio1.mp3 */; };
 		8101314E19526F7C00EA93DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8101314D19526F7C00EA93DB /* AVFoundation.framework */; };
+		810131511955073A00EA93DB /* MiVista.m in Sources */ = {isa = PBXBuildFile; fileRef = 810131501955073A00EA93DB /* MiVista.m */; };
+		810131541955161200EA93DB /* MisImagenesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810131531955161200EA93DB /* MisImagenesCollectionViewController.m */; };
 		81820636194FDF86009170FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820635194FDF86009170FD /* Foundation.framework */; };
 		81820638194FDF86009170FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820637194FDF86009170FD /* CoreGraphics.framework */; };
 		8182063A194FDF86009170FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820639194FDF86009170FD /* UIKit.framework */; };
@@ -42,6 +44,10 @@
 		810131491952645F00EA93DB /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		8101314B19526E6400EA93DB /* audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio1.mp3; sourceTree = "<group>"; };
 		8101314D19526F7C00EA93DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8101314F1955073A00EA93DB /* MiVista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiVista.h; sourceTree = "<group>"; };
+		810131501955073A00EA93DB /* MiVista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiVista.m; sourceTree = "<group>"; };
+		810131521955161200EA93DB /* MisImagenesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MisImagenesCollectionViewController.h; path = ../../../class_6/MisImagenesCollectionViewController.h; sourceTree = "<group>"; };
+		810131531955161200EA93DB /* MisImagenesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MisImagenesCollectionViewController.m; path = ../../../class_6/MisImagenesCollectionViewController.m; sourceTree = "<group>"; };
 		81820632194FDF86009170FD /* MultimediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultimediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81820635194FDF86009170FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81820637194FDF86009170FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,10 +138,14 @@
 				81820644194FDF86009170FD /* AppDelegate.h */,
 				81820645194FDF86009170FD /* AppDelegate.m */,
 				8182066C194FE471009170FD /* Main.storyboard */,
+				810131521955161200EA93DB /* MisImagenesCollectionViewController.h */,
+				810131531955161200EA93DB /* MisImagenesCollectionViewController.m */,
 				8182066E194FE63B009170FD /* MultimediaTableViewController.h */,
 				8182066F194FE63B009170FD /* MultimediaTableViewController.m */,
 				8182064A194FDF86009170FD /* ViewController.h */,
 				8182064B194FDF86009170FD /* ViewController.m */,
+				8101314F1955073A00EA93DB /* MiVista.h */,
+				810131501955073A00EA93DB /* MiVista.m */,
 				8182064D194FDF86009170FD /* Images.xcassets */,
 				8182063C194FDF86009170FD /* Supporting Files */,
 			);
@@ -281,6 +291,8 @@
 				8182064C194FDF86009170FD /* ViewController.m in Sources */,
 				81820646194FDF86009170FD /* AppDelegate.m in Sources */,
 				81820642194FDF86009170FD /* main.m in Sources */,
+				810131511955073A00EA93DB /* MiVista.m in Sources */,
+				810131541955161200EA93DB /* MisImagenesCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
