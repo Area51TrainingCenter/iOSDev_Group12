@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MisImagenesCollectionViewController : UICollectionViewController <UINavigationControllerDelegate,UIImagePickerControllerDelegate, UIActionSheetDelegate>
-
+{
+    NSMutableArray *imagenes;
+}
 @end

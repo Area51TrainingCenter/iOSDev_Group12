@@ -11,7 +11,10 @@
 		8101314C19526E6400EA93DB /* audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8101314B19526E6400EA93DB /* audio1.mp3 */; };
 		8101314E19526F7C00EA93DB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8101314D19526F7C00EA93DB /* AVFoundation.framework */; };
 		810131511955073A00EA93DB /* MiVista.m in Sources */ = {isa = PBXBuildFile; fileRef = 810131501955073A00EA93DB /* MiVista.m */; };
-		810131541955161200EA93DB /* MisImagenesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810131531955161200EA93DB /* MisImagenesCollectionViewController.m */; };
+		810131571959008500EA93DB /* ImagenCelda.m in Sources */ = {isa = PBXBuildFile; fileRef = 810131561959008500EA93DB /* ImagenCelda.m */; };
+		8101315A195908A100EA93DB /* MisImagenesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81013159195908A100EA93DB /* MisImagenesCollectionViewController.m */; };
+		8101315D1959118700EA93DB /* DetalleImagenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8101315C1959118700EA93DB /* DetalleImagenViewController.m */; };
+		8101315F19591C8E00EA93DB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8101315E19591C8E00EA93DB /* CoreImage.framework */; };
 		81820636194FDF86009170FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820635194FDF86009170FD /* Foundation.framework */; };
 		81820638194FDF86009170FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820637194FDF86009170FD /* CoreGraphics.framework */; };
 		8182063A194FDF86009170FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81820639194FDF86009170FD /* UIKit.framework */; };
@@ -46,8 +49,13 @@
 		8101314D19526F7C00EA93DB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8101314F1955073A00EA93DB /* MiVista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiVista.h; sourceTree = "<group>"; };
 		810131501955073A00EA93DB /* MiVista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiVista.m; sourceTree = "<group>"; };
-		810131521955161200EA93DB /* MisImagenesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MisImagenesCollectionViewController.h; path = ../../../class_6/MisImagenesCollectionViewController.h; sourceTree = "<group>"; };
-		810131531955161200EA93DB /* MisImagenesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MisImagenesCollectionViewController.m; path = ../../../class_6/MisImagenesCollectionViewController.m; sourceTree = "<group>"; };
+		810131551959008500EA93DB /* ImagenCelda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagenCelda.h; sourceTree = "<group>"; };
+		810131561959008500EA93DB /* ImagenCelda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagenCelda.m; sourceTree = "<group>"; };
+		81013158195908A100EA93DB /* MisImagenesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MisImagenesCollectionViewController.h; sourceTree = "<group>"; };
+		81013159195908A100EA93DB /* MisImagenesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MisImagenesCollectionViewController.m; sourceTree = "<group>"; };
+		8101315B1959118700EA93DB /* DetalleImagenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleImagenViewController.h; sourceTree = "<group>"; };
+		8101315C1959118700EA93DB /* DetalleImagenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleImagenViewController.m; sourceTree = "<group>"; };
+		8101315E19591C8E00EA93DB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		81820632194FDF86009170FD /* MultimediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultimediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81820635194FDF86009170FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		81820637194FDF86009170FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8101315F19591C8E00EA93DB /* CoreImage.framework in Frameworks */,
 				8101314E19526F7C00EA93DB /* AVFoundation.framework in Frameworks */,
 				8182066B194FE435009170FD /* MediaPlayer.framework in Frameworks */,
 				81820638194FDF86009170FD /* CoreGraphics.framework in Frameworks */,
@@ -120,6 +129,7 @@
 		81820634194FDF86009170FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8101315E19591C8E00EA93DB /* CoreImage.framework */,
 				8101314D19526F7C00EA93DB /* AVFoundation.framework */,
 				8182066A194FE435009170FD /* MediaPlayer.framework */,
 				81820635194FDF86009170FD /* Foundation.framework */,
@@ -135,13 +145,17 @@
 			children = (
 				8101314B19526E6400EA93DB /* audio1.mp3 */,
 				810131491952645F00EA93DB /* video1.mp4 */,
+				81013158195908A100EA93DB /* MisImagenesCollectionViewController.h */,
+				81013159195908A100EA93DB /* MisImagenesCollectionViewController.m */,
 				81820644194FDF86009170FD /* AppDelegate.h */,
 				81820645194FDF86009170FD /* AppDelegate.m */,
 				8182066C194FE471009170FD /* Main.storyboard */,
-				810131521955161200EA93DB /* MisImagenesCollectionViewController.h */,
-				810131531955161200EA93DB /* MisImagenesCollectionViewController.m */,
+				8101315B1959118700EA93DB /* DetalleImagenViewController.h */,
+				8101315C1959118700EA93DB /* DetalleImagenViewController.m */,
 				8182066E194FE63B009170FD /* MultimediaTableViewController.h */,
 				8182066F194FE63B009170FD /* MultimediaTableViewController.m */,
+				810131551959008500EA93DB /* ImagenCelda.h */,
+				810131561959008500EA93DB /* ImagenCelda.m */,
 				8182064A194FDF86009170FD /* ViewController.h */,
 				8182064B194FDF86009170FD /* ViewController.m */,
 				8101314F1955073A00EA93DB /* MiVista.h */,
@@ -288,11 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81820670194FE63B009170FD /* MultimediaTableViewController.m in Sources */,
+				810131571959008500EA93DB /* ImagenCelda.m in Sources */,
 				8182064C194FDF86009170FD /* ViewController.m in Sources */,
+				8101315D1959118700EA93DB /* DetalleImagenViewController.m in Sources */,
 				81820646194FDF86009170FD /* AppDelegate.m in Sources */,
+				8101315A195908A100EA93DB /* MisImagenesCollectionViewController.m in Sources */,
 				81820642194FDF86009170FD /* main.m in Sources */,
 				810131511955073A00EA93DB /* MiVista.m in Sources */,
-				810131541955161200EA93DB /* MisImagenesCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

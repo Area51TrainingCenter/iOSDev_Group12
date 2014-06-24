@@ -135,7 +135,7 @@
                             <inset key="sectionInset" minX="4" minY="4" maxX="4" maxY="4"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="plantillaCelda" id="Bfe-t3-WoV">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="plantillaCelda" id="Bfe-t3-WoV" customClass="ImagenCelda">
                                 <rect key="frame" x="4" y="68" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -157,6 +157,10 @@
                                     <constraint firstItem="4Va-wY-xB1" firstAttribute="top" secondItem="Bfe-t3-WoV" secondAttribute="top" id="xdr-k4-6vw"/>
                                 </constraints>
                                 <size key="customSize" width="75" height="75"/>
+                                <connections>
+                                    <outlet property="imagenView" destination="4Va-wY-xB1" id="9lp-Gr-d6f"/>
+                                    <segue destination="fyc-xS-p8m" kind="push" id="Mji-pC-xD4"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -175,6 +179,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YGv-68-hCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="566" y="1077"/>
+        </scene>
+        <!--Detalle Imagen View Controller - Imagen Nº X-->
+        <scene sceneID="YEh-Im-gJa">
+            <objects>
+                <viewController id="fyc-xS-p8m" customClass="DetalleImagenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MqU-6j-hme"/>
+                        <viewControllerLayoutGuide type="bottom" id="laZ-N9-JJb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4M9-P9-AmT">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vec-sV-MIX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QWg-TF-SHh">
+                                <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Sepia" id="w9h-6J-gnx">
+                                        <connections>
+                                            <action selector="apretoSepia:" destination="fyc-xS-p8m" id="mHW-bC-Uee"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="z40-Ko-W1b"/>
+                                    <barButtonItem title="Item" id="kAE-Kx-YXO"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zwE-x1-AOa"/>
+                                    <barButtonItem title="Item" id="hbt-iX-ia6"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="laZ-N9-JJb" firstAttribute="top" secondItem="Vec-sV-MIX" secondAttribute="bottom" id="d2T-Dv-5bK"/>
+                            <constraint firstAttribute="trailing" secondItem="Vec-sV-MIX" secondAttribute="trailing" id="qRF-vg-wrc"/>
+                            <constraint firstItem="Vec-sV-MIX" firstAttribute="leading" secondItem="4M9-P9-AmT" secondAttribute="leading" id="tkW-Hb-TYy"/>
+                            <constraint firstItem="Vec-sV-MIX" firstAttribute="top" secondItem="4M9-P9-AmT" secondAttribute="top" id="xG3-Yc-Efa"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Imagen Nº X" id="Tkk-sR-CWT"/>
+                    <connections>
+                        <outlet property="imagenView" destination="Vec-sV-MIX" id="MqM-xD-fGJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGb-Hb-Om8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="1077"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aTD-8d-trv">
