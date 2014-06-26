@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8146FA5017DEB82C000F4348 /* scarjo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8146FA4F17DEB82C000F4348 /* scarjo.jpg */; };
+		81BCFB8D17DEB55B0093C486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFB8C17DEB55B0093C486 /* UIKit.framework */; };
+		81BCFB8F17DEB55B0093C486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFB8E17DEB55B0093C486 /* Foundation.framework */; };
+		81BCFB9117DEB55B0093C486 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFB9017DEB55B0093C486 /* CoreGraphics.framework */; };
+		81BCFB9717DEB55B0093C486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81BCFB9517DEB55B0093C486 /* InfoPlist.strings */; };
+		81BCFB9917DEB55B0093C486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCFB9817DEB55B0093C486 /* main.m */; };
+		81BCFB9D17DEB55B0093C486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCFB9C17DEB55B0093C486 /* AppDelegate.m */; };
+		81BCFB9F17DEB55B0093C486 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BCFB9E17DEB55B0093C486 /* Default.png */; };
+		81BCFBA117DEB55B0093C486 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BCFBA017DEB55B0093C486 /* Default@2x.png */; };
+		81BCFBA317DEB55B0093C486 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BCFBA217DEB55B0093C486 /* Default-568h@2x.png */; };
+		81BCFBA617DEB55B0093C486 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BCFBA417DEB55B0093C486 /* MainStoryboard.storyboard */; };
+		81BCFBA917DEB55B0093C486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCFBA817DEB55B0093C486 /* ViewController.m */; };
+		81BCFBB117DEB55C0093C486 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFBB017DEB55C0093C486 /* SenTestingKit.framework */; };
+		81BCFBB217DEB55C0093C486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFB8C17DEB55B0093C486 /* UIKit.framework */; };
+		81BCFBB317DEB55C0093C486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFB8E17DEB55B0093C486 /* Foundation.framework */; };
+		81BCFBBB17DEB55C0093C486 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81BCFBB917DEB55C0093C486 /* InfoPlist.strings */; };
+		81BCFBBE17DEB55C0093C486 /* FiltrosAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BCFBBD17DEB55C0093C486 /* FiltrosAppTests.m */; };
+		81BCFBC817DEB57D0093C486 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFBC717DEB57D0093C486 /* CoreImage.framework */; };
+		81BCFBCA17DEB5870093C486 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFBC917DEB5870093C486 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81BCFBB417DEB55C0093C486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BCFB8117DEB55B0093C486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BCFB8817DEB55B0093C486;
+			remoteInfo = FiltrosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8146FA4F17DEB82C000F4348 /* scarjo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scarjo.jpg; sourceTree = "<group>"; };
+		81BCFB8917DEB55B0093C486 /* FiltrosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiltrosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BCFB8C17DEB55B0093C486 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81BCFB8E17DEB55B0093C486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81BCFB9017DEB55B0093C486 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81BCFB9417DEB55B0093C486 /* FiltrosApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiltrosApp-Info.plist"; sourceTree = "<group>"; };
+		81BCFB9617DEB55B0093C486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81BCFB9817DEB55B0093C486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81BCFB9A17DEB55B0093C486 /* FiltrosApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiltrosApp-Prefix.pch"; sourceTree = "<group>"; };
+		81BCFB9B17DEB55B0093C486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81BCFB9C17DEB55B0093C486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81BCFB9E17DEB55B0093C486 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		81BCFBA017DEB55B0093C486 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		81BCFBA217DEB55B0093C486 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		81BCFBA517DEB55B0093C486 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		81BCFBA717DEB55B0093C486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81BCFBA817DEB55B0093C486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81BCFBAF17DEB55C0093C486 /* FiltrosAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiltrosAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BCFBB017DEB55C0093C486 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		81BCFBB817DEB55C0093C486 /* FiltrosAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiltrosAppTests-Info.plist"; sourceTree = "<group>"; };
+		81BCFBBA17DEB55C0093C486 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81BCFBBC17DEB55C0093C486 /* FiltrosAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltrosAppTests.h; sourceTree = "<group>"; };
+		81BCFBBD17DEB55C0093C486 /* FiltrosAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltrosAppTests.m; sourceTree = "<group>"; };
+		81BCFBC717DEB57D0093C486 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		81BCFBC917DEB5870093C486 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BCFB8617DEB55B0093C486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BCFBCA17DEB5870093C486 /* AssetsLibrary.framework in Frameworks */,
+				81BCFBC817DEB57D0093C486 /* CoreImage.framework in Frameworks */,
+				81BCFB8D17DEB55B0093C486 /* UIKit.framework in Frameworks */,
+				81BCFB8F17DEB55B0093C486 /* Foundation.framework in Frameworks */,
+				81BCFB9117DEB55B0093C486 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BCFBAB17DEB55C0093C486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BCFBB117DEB55C0093C486 /* SenTestingKit.framework in Frameworks */,
+				81BCFBB217DEB55C0093C486 /* UIKit.framework in Frameworks */,
+				81BCFBB317DEB55C0093C486 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81BCFB8017DEB55B0093C486 = {
+			isa = PBXGroup;
+			children = (
+				81BCFBC917DEB5870093C486 /* AssetsLibrary.framework */,
+				81BCFBC717DEB57D0093C486 /* CoreImage.framework */,
+				81BCFB9217DEB55B0093C486 /* FiltrosApp */,
+				81BCFBB617DEB55C0093C486 /* FiltrosAppTests */,
+				81BCFB8B17DEB55B0093C486 /* Frameworks */,
+				81BCFB8A17DEB55B0093C486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BCFB8A17DEB55B0093C486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BCFB8917DEB55B0093C486 /* FiltrosApp.app */,
+				81BCFBAF17DEB55C0093C486 /* FiltrosAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BCFB8B17DEB55B0093C486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BCFB8C17DEB55B0093C486 /* UIKit.framework */,
+				81BCFB8E17DEB55B0093C486 /* Foundation.framework */,
+				81BCFB9017DEB55B0093C486 /* CoreGraphics.framework */,
+				81BCFBB017DEB55C0093C486 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81BCFB9217DEB55B0093C486 /* FiltrosApp */ = {
+			isa = PBXGroup;
+			children = (
+				8146FA4F17DEB82C000F4348 /* scarjo.jpg */,
+				81BCFB9B17DEB55B0093C486 /* AppDelegate.h */,
+				81BCFB9C17DEB55B0093C486 /* AppDelegate.m */,
+				81BCFBA417DEB55B0093C486 /* MainStoryboard.storyboard */,
+				81BCFBA717DEB55B0093C486 /* ViewController.h */,
+				81BCFBA817DEB55B0093C486 /* ViewController.m */,
+				81BCFB9317DEB55B0093C486 /* Supporting Files */,
+			);
+			path = FiltrosApp;
+			sourceTree = "<group>";
+		};
+		81BCFB9317DEB55B0093C486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81BCFB9417DEB55B0093C486 /* FiltrosApp-Info.plist */,
+				81BCFB9517DEB55B0093C486 /* InfoPlist.strings */,
+				81BCFB9817DEB55B0093C486 /* main.m */,
+				81BCFB9A17DEB55B0093C486 /* FiltrosApp-Prefix.pch */,
+				81BCFB9E17DEB55B0093C486 /* Default.png */,
+				81BCFBA017DEB55B0093C486 /* Default@2x.png */,
+				81BCFBA217DEB55B0093C486 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81BCFBB617DEB55C0093C486 /* FiltrosAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				81BCFBBC17DEB55C0093C486 /* FiltrosAppTests.h */,
+				81BCFBBD17DEB55C0093C486 /* FiltrosAppTests.m */,
+				81BCFBB717DEB55C0093C486 /* Supporting Files */,
+			);
+			path = FiltrosAppTests;
+			sourceTree = "<group>";
+		};
+		81BCFBB717DEB55C0093C486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81BCFBB817DEB55C0093C486 /* FiltrosAppTests-Info.plist */,
+				81BCFBB917DEB55C0093C486 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BCFB8817DEB55B0093C486 /* FiltrosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BCFBC117DEB55C0093C486 /* Build configuration list for PBXNativeTarget "FiltrosApp" */;
+			buildPhases = (
+				81BCFB8517DEB55B0093C486 /* Sources */,
+				81BCFB8617DEB55B0093C486 /* Frameworks */,
+				81BCFB8717DEB55B0093C486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiltrosApp;
+			productName = FiltrosApp;
+			productReference = 81BCFB8917DEB55B0093C486 /* FiltrosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81BCFBAE17DEB55C0093C486 /* FiltrosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BCFBC417DEB55C0093C486 /* Build configuration list for PBXNativeTarget "FiltrosAppTests" */;
+			buildPhases = (
+				81BCFBAA17DEB55C0093C486 /* Sources */,
+				81BCFBAB17DEB55C0093C486 /* Frameworks */,
+				81BCFBAC17DEB55C0093C486 /* Resources */,
+				81BCFBAD17DEB55C0093C486 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BCFBB517DEB55C0093C486 /* PBXTargetDependency */,
+			);
+			name = FiltrosAppTests;
+			productName = FiltrosAppTests;
+			productReference = 81BCFBAF17DEB55C0093C486 /* FiltrosAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BCFB8117DEB55B0093C486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Area51;
+			};
+			buildConfigurationList = 81BCFB8417DEB55B0093C486 /* Build configuration list for PBXProject "FiltrosApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81BCFB8017DEB55B0093C486;
+			productRefGroup = 81BCFB8A17DEB55B0093C486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BCFB8817DEB55B0093C486 /* FiltrosApp */,
+				81BCFBAE17DEB55C0093C486 /* FiltrosAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BCFB8717DEB55B0093C486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BCFB9717DEB55B0093C486 /* InfoPlist.strings in Resources */,
+				81BCFB9F17DEB55B0093C486 /* Default.png in Resources */,
+				81BCFBA117DEB55B0093C486 /* Default@2x.png in Resources */,
+				81BCFBA317DEB55B0093C486 /* Default-568h@2x.png in Resources */,
+				81BCFBA617DEB55B0093C486 /* MainStoryboard.storyboard in Resources */,
+				8146FA5017DEB82C000F4348 /* scarjo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BCFBAC17DEB55C0093C486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BCFBBB17DEB55C0093C486 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81BCFBAD17DEB55C0093C486 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BCFB8517DEB55B0093C486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BCFB9917DEB55B0093C486 /* main.m in Sources */,
+				81BCFB9D17DEB55B0093C486 /* AppDelegate.m in Sources */,
+				81BCFBA917DEB55B0093C486 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BCFBAA17DEB55C0093C486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BCFBBE17DEB55C0093C486 /* FiltrosAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81BCFBB517DEB55C0093C486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BCFB8817DEB55B0093C486 /* FiltrosApp */;
+			targetProxy = 81BCFBB417DEB55C0093C486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81BCFB9517DEB55B0093C486 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BCFB9617DEB55B0093C486 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81BCFBA417DEB55B0093C486 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BCFBA517DEB55B0093C486 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		81BCFBB917DEB55C0093C486 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BCFBBA17DEB55C0093C486 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BCFBBF17DEB55C0093C486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81BCFBC017DEB55C0093C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81BCFBC217DEB55C0093C486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiltrosApp/FiltrosApp-Prefix.pch";
+				INFOPLIST_FILE = "FiltrosApp/FiltrosApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81BCFBC317DEB55C0093C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiltrosApp/FiltrosApp-Prefix.pch";
+				INFOPLIST_FILE = "FiltrosApp/FiltrosApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81BCFBC517DEB55C0093C486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiltrosApp.app/FiltrosApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiltrosApp/FiltrosApp-Prefix.pch";
+				INFOPLIST_FILE = "FiltrosAppTests/FiltrosAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		81BCFBC617DEB55C0093C486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiltrosApp.app/FiltrosApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiltrosApp/FiltrosApp-Prefix.pch";
+				INFOPLIST_FILE = "FiltrosAppTests/FiltrosAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BCFB8417DEB55B0093C486 /* Build configuration list for PBXProject "FiltrosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BCFBBF17DEB55C0093C486 /* Debug */,
+				81BCFBC017DEB55C0093C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BCFBC117DEB55C0093C486 /* Build configuration list for PBXNativeTarget "FiltrosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BCFBC217DEB55C0093C486 /* Debug */,
+				81BCFBC317DEB55C0093C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BCFBC417DEB55C0093C486 /* Build configuration list for PBXNativeTarget "FiltrosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BCFBC517DEB55C0093C486 /* Debug */,
+				81BCFBC617DEB55C0093C486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BCFB8117DEB55B0093C486 /* Project object */;
+}
